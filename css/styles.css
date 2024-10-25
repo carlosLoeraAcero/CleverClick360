@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input-style {
+    display: block;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+}
+
+header a:hover {
+    color: #fff;
+    background-color: black;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.size-screen {
+    overflow-x: auto;
+}
+
+@media (max-width: 424px) {
+    header a {
+        padding: 20px 10px 20px 10px;
+    }
+}
